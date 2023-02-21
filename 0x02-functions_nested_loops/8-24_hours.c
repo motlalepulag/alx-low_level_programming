@@ -16,7 +16,7 @@ while (h2 <= 2)
 {
 	if (h2 == 2)
 	{
-		Restrain to 23h, not 29, a = 3;
+		Restrain = 23h, not 29, a = 3;
 	}
 	h1 = 0;
 	while (h1 <= a)
