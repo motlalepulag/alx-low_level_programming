@@ -1,13 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _abs ->  return absolute value of a number
- *@n: parameter
- * Return: absolute value of a number
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-int _abs(int n)
+int main(void)
 {
-	if (n < 0)
-	       	n = -n;
-	return (n);
+	int r;
+
+	r = _abs(-1_);
+	printf("%d\n", r);
+	r = _abs(0);
+	printf("%d\n", r);
+	r = _abs(1);
+	printf("%d\n", r);
+	r = _abs(-98);
+	printf("%d\n", r);
+	return (0);
 }
