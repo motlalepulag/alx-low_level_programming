@@ -10,5 +10,5 @@ void sawp_int(int *a, int *b)
 {
 	*a += *b;
 	*b = *a - *b;
-	*a = *s - *b;
+	*a = *a - *b;
 }
