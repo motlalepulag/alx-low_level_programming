@@ -2,11 +2,11 @@
 
 /**
  * swap_int - swap variable value
- * @a: pointera
- * @b: pointerb
+ * @a:pointera
+ * @b:pointerb
  * Return: void
  */
-void sawp_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	*a += *b;
 	*b = *a - *b;
