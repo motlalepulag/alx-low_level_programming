@@ -11,8 +11,8 @@
 
 int main(void)
 {
-	int i, sum, u;
-	int pass[100];
+	int i, sum, n;
+	int pasis[100];
 
 	sum = 0;
 
