@@ -12,7 +12,7 @@
 int main(void)
 {
 	int i, sum, n;
-	int pasis[100];
+	int pass[100];
 
 	sum = 0;
 
