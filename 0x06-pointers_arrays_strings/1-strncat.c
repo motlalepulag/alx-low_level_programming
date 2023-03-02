@@ -2,13 +2,15 @@
 
 
 /**
- * __strncat - joins two strings with n bytes
- * @dest: copy to
- * @src: copy from
- * @n: number of char to be copied
+ * __strncat - concanate two strings
+ * using at most n bytes from src
+ * @dest: input value
+ * @src: input value
+ * @n: input value
+ *
  * Return: dest
  */
-char _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
