@@ -12,7 +12,7 @@ int main(void)
        	char *p;
 	
 	p = rot13(s);
-	printf("%s)";
+	printf("%s", p);
 	printf("------------------------------------\n");
 	printf("%s", s);
 	printf("------------------------------------\n");
@@ -26,4 +26,4 @@ int main(void)
 	printf("------------------------------------\n");
        	printf("%s", s);
 	return (0);
-	}
+}
