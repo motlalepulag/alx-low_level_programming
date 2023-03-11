@@ -4,7 +4,7 @@
 int _putchar(char c);
 int check_num(char *str);
 int _atoi(char *s);
-int main(int argc, char  *argv[]);
+int main(int argc, char *argv[]);
 
 
 #endif

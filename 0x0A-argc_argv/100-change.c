@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints the minimum number of coins to
@@ -11,8 +12,9 @@
  */
 int main(int argc, char  *argv[])
 {
+	/*Declaring variables*/
 	int num, j, result;
-	int coins[] = {25, 10, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};/*Array int*/
 
 	if (argc != 2)
 	{
@@ -20,7 +22,7 @@ int main(int argc, char  *argv[])
 		return (1);
 	}
 
-	num = _atoi(argv[1]);
+	num = atoi(argv[1]); /*Covert str to int*/
 	result = 0;
 	if (num < 0)
 	{
