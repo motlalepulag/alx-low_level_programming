@@ -4,9 +4,9 @@
 /**
  * *argstostr - concatenates all the arguments of the program
  * @ac: number of arguments
- * @av: array of arguments
+ * @av:array of arguments
  *
- * Return: pointer to the new string(Success), NULL (Error)
+ * Return: Pointer to the new string (Success), NULL (Error)
  */
 char *argstostr(int ac, char **av)
 {
@@ -17,15 +17,10 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (i = 0; i < ac; i++)
 	{
-		s = av[i];
-		j = 0;
-
-	{
 		for (j = 0; av[i][j] != '\0'; j++)
 			len++;
 		len++;
 	}
-
 	str = malloc(sizeof(char) * (len + 1));
 
 	if (str == NULL)
@@ -41,7 +36,5 @@ char *argstostr(int ac, char **av)
 		str[k] = '\n';
 		k++;
 	}
-
 	return (str);
 }
-
