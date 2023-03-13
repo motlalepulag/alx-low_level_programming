@@ -4,6 +4,8 @@
 
 /**
  * main - check the code for ALX School students
+ *@ac: number of arguments
+ *@av:array of arguments
  *
  * Return: Always 0
  */
