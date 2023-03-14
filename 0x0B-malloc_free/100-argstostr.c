@@ -28,6 +28,7 @@ char *argstostr(int ac, char **av)
 
 	if (str == NULL)
 	{
+		free(str);
 		return (NULL);
 	}
 	k = 0;
