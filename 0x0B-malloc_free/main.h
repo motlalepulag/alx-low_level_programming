@@ -11,6 +11,6 @@ char *argstostr(int ac, char **av);
 char **strtow(char *str);
 void free_grid(int **grid, int height);
 void print_grid(int **grid, int width, int height);
-int main(int ac, char *av[]);
+int main(void);
 
 #endif
